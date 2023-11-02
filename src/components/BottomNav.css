@@ -1,0 +1,35 @@
+#navContainer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 2px;
+  background-color: whitesmoke;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  color: rgb(58, 61, 63);
+}
+
+button:hover,
+button:focus {
+  color: blue;
+}
+
+#tabIcons {
+  width: 24px;
+  height: 24px;
+}

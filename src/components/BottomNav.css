@@ -5,6 +5,7 @@
   right: 0;
   box-shadow: 2px;
   background-color: whitesmoke;
+  padding-bottom: 4px;
 }
 
 #navbar {
@@ -30,6 +31,6 @@ button:focus {
 }
 
 #tabIcons {
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
 }

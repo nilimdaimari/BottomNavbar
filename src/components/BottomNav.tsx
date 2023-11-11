@@ -1,10 +1,6 @@
-import {
-  MdAddBox,
-  MdHomeFilled,
-  MdMore,
-  MdNotifications,
-} from "react-icons/md";
+import { MdAddBox, MdHomeFilled, MdNotifications } from "react-icons/md";
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
+import { HiDotsHorizontal } from "react-icons/hi";
 import "../components/BottomNav.css";
 
 export const BottomNav = () => {
@@ -29,7 +25,7 @@ export const BottomNav = () => {
             <span>Notifications</span>
           </button>
           <button>
-            <MdMore id="tabIcons" />
+            <HiDotsHorizontal id="tabIcons" />
             <span>More</span>
           </button>
         </nav>
